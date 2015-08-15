@@ -50,7 +50,7 @@ try {
 }
 
 // To bypass validation...
-var str = serialize.raw( new Buffer('boop' ) );
+var str = serialize.raw( new Buffer( 'boop' ) );
 // returns 'new Buffer("Ym9vcA==","base64")';
 ```
 
