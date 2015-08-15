@@ -27,7 +27,7 @@ var deepEqual = require( 'deep-equal' );
 var b1 = new Buffer( 'beep' );
 
 var str = serialize( b1 );
-// returns 'new Buffer("YmVlcA==","base64")''
+// returns 'new Buffer("YmVlcA==","base64")'
 
 var b2 = eval( str );
 // returns Buffer( 'beep' )
