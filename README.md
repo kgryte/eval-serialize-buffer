@@ -38,7 +38,7 @@ var bool = deepEqual( b1, b2 );
 ```
 
 
-#### serialize.raw( arr )
+#### serialize.raw( buffer )
 
 Serializes a [`Buffer`](https://nodejs.org/api/buffer.html) object without performing type checking.
 
